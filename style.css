@@ -9,9 +9,15 @@ body{
 }
 
 section{
-  width: 50%;
-  height: 50%;
   display: flex;
+  padding: 50%;
   background-color:hsl(0, 0%, 100%) ;
+  margin: auto;
+  
+}
+
+img{
+  height: 400px;
+
 }
 
