@@ -10,9 +10,9 @@ body{
 
 section{
   display: flex;
-  padding: 50%;
+  width: 50%;
   background-color:hsl(0, 0%, 100%) ;
-  margin: auto;
+  margin: 50px auto;
   
 }
 
