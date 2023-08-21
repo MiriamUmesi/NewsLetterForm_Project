@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
   
@@ -20,12 +21,12 @@
 
   <!-- Sign-up form start -->
  <section>
-   <div>
-    <div>
+   <div class="col-1">
+    <div class="col-1-info">
       <h1>Stay updated!</h1> 
-      <p>Join 60,000+ product managers receiving monthly updates on:</p>
+      <p >Join 60,000+ product managers receiving monthly updates on:</p>
 
-      <div>
+      <div class="col-1-list">
         
         <p><i class="fa fa-check-circle" aria-hidden="true"></i>&nbsp Product discovery and building what matters</p>
         <p><i class="fa fa-check-circle" aria-hidden="true"></i>&nbsp Measuring to ensure updates are a success</p>
@@ -33,8 +34,21 @@
 
       </div>
 
-    </div>
+      <div>
+        <form>
+          <label for="email">Email address</label>
+          <input placeholder="email@company.com" id="email" type="email" name="email">  
+          <input type="submit" value="Subscribe to monthly newsletter">   
+        </form>
+      </div>   
+    </div>   
   </div>
+   
+  <div class="col-2">
+    <img src="./assets/images/illustration-sign-up-desktop.svg" alt="">
+  </div>
+
+
  </section>
 
   
@@ -43,10 +57,10 @@
   
   
 
-  Email address
-  email@company.com
+  
+  
 
-  Subscribe to monthly newsletter
+  
 
   <!-- Sign-up form end -->
 

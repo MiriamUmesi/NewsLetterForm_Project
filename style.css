@@ -1,3 +1,17 @@
-.list {
-  display: flex;
+*{
+  margin: 0;
+  box-sizing: border-box;  
 }
+
+body{
+  background-color:hsl(235, 18%, 26%) ;
+
+}
+
+section{
+  width: 50%;
+  height: 50%;
+  display: flex;
+  background-color:hsl(0, 0%, 100%) ;
+}
+
