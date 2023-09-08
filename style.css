@@ -27,13 +27,14 @@ section{
 .col-1 {
   align-items: center;
   padding: 28px;
+  padding-right: 44px;
   margin-top: 48px;
 }
 
 .col-1-info > h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
-  font-size: 38px;
+  font-size: 48px;
   color: hsl(234, 29%, 20%);
   margin-bottom: 16px;
 }
@@ -90,6 +91,20 @@ button {
   font-weight: 700;
   font-size: 16px;
   color: white;
+  border: none;
 }
 
+input:focus {
+  border: 1px hsl(234, 29%, 20%) solid;
+}
 
+input:hover {
+  cursor: pointer;
+} 
+
+button:hover {
+  cursor: pointer;
+  background: linear-gradient(to right, #FF527B, hsl(4, 100%, 67%));
+  border: none;
+  filter: drop-shadow(5px 12px 16px hsla(4, 100%, 67%, 0.512));
+} 
