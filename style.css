@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 *{
   margin: 0;
   box-sizing: border-box;  
@@ -5,19 +7,89 @@
 
 body{
   background-color:hsl(235, 18%, 26%) ;
-
+  width: 100vw;
+  height: 100vh;
 }
 
 section{
   display: flex;
-  width: 50%;
+  max-width: fit-content;
+  width: 900px;
   background-color:hsl(0, 0%, 100%) ;
-  margin: 50px auto;
-  
+  margin: auto;
+  border-radius: 24px;
+  justify-content: center;
+  overflow: hidden;
+  padding: 16px;
+  margin-top: 200px;
 }
 
-img{
-  height: 400px;
-
+.col-1 {
+  align-items: center;
+  padding: 28px;
+  margin-top: 48px;
 }
+
+.col-1-info > h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 38px;
+  color: hsl(234, 29%, 20%);
+  margin-bottom: 16px;
+}
+
+.col-1-info > p {
+  padding-bottom: 16px;
+}
+
+.col-1-list {
+  margin-top: 14px;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: hsl(234, 29%, 20%)
+}
+
+i {
+  color: hsl(4, 100%, 67%);
+} 
+
+.col-1-list > p {
+  padding-bottom: 8px;
+}
+
+form {
+  margin-top: 24px;
+}
+
+label {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  color: hsl(234, 29%, 20%);
+}
+
+input {
+  padding: 16px;
+  width: 100%;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  border: 0.25px hsl(231, 7%, 60%) solid;
+  margin-top: 4px;
+}
+
+button {
+  padding: 16px;
+  width: 100%;
+  border-radius: 8px;
+  background-color: hsl(234, 29%, 20%);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: white;
+}
+
 
